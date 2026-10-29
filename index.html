@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aymen Akdim – Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<header><div class="wrap bar">
+<a class="logo" href="#home">Aymen <i>Akdim</i></a>
+<nav id="nav"><a href="#home" class="on">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#background">Background</a><a href="#contact">Contact</a></nav>
+<a class="btn" href="#contact">Hire me</a>
+<button class="menu" id="menu" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap">
+<div>
+<p class="hello">Hello, I’m</p>
+<h1><span><b>Aymen</b></span><span><b>Akdim</b></span></h1>
+<p class="role">Embedded systems engineering, focused on automotive systems.</p>
+<div class="cta"><a class="btn" href="#projects">See my projects</a><a class="btn ghost" href="#contact">Get in touch</a><a class="btn ghost" href="CV_Aymen_Akdim.pdf" download>Download CV</a></div>
+<div class="social"><a href="https://github.com/aymenakdim" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/aymen-akdim-060782341/" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:aymen.akdim@uit.ac.ma">aymen.akdim@uit.ac.ma</a><a href="tel:+212698511213">+212 6 98 51 12 13</a></div>
+</div>
+<div class="portrait">
+<a class="pic" id="pic" href="#contact" aria-label="Aymen Akdim, portrait. Go to the contact section" title="Get in touch">
+<div class="ring"><svg viewBox="0 0 200 200" fill="none"><circle cx="100" cy="100" r="98" stroke="#A8864B" stroke-width=".7" stroke-linecap="round"/></svg></div>
+<div class="frame" role="img" aria-hidden="true"></div>
+</a>
+<p class="msg"><span class="sr">Constantly improving.</span><span id="typed" aria-hidden="true"></span></p>
+</div>
+</div></section>
+
+<section class="about" id="about"><div class="wrap">
+<div class="about-photo" role="img" aria-label="Portrait of Aymen Akdim"></div>
+<div>
+<h2>About me</h2>
+<p>I’m a Master’s student in Embedded Electronics at Ibn Tofail University, with a Bachelor’s degree in Electrical Engineering, Instrumentation and Supervision of Smart Systems.</p>
+<p>I’m passionate about automotive embedded software. I write C and C++ for microcontrollers and Raspberry Pi, and I built an ECU network simulator that talks over a CAN bus with OBD-II diagnostics. I test, debug and document everything I develop.</p>
+<div class="facts"><div><b>4</b><small>Projects built</small></div><div><b>3</b><small>Languages spoken</small></div><div><b>5</b><small>Skill areas</small></div></div>
+<a class="btn" href="#contact">Contact me</a>
+</div></div></section>
+
+<section id="skills"><div class="wrap">
+<h2>What I work with</h2>
+<div class="rows">
+<div class="row"><h3>Embedded programming</h3><p>C (C11), C++, Python, MATLAB / Simulink, VHDL / Verilog</p><svg viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></svg></div>
+<div class="row"><h3>Microcontrollers</h3><p>Arduino, ESP32, 8051, Raspberry Pi 4, FPGA</p><svg viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></svg></div>
+<div class="row"><h3>Protocols and automotive</h3><p>CAN (8-byte frames, encoding/decoding), ECU, OBD-II diagnostics (DTC), ADAS, I2C, MQTT</p><svg viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></svg></div>
+<div class="row"><h3>Testing and tools</h3><p>pytest, Git / GitHub, Proteus, TIA Portal and HMI, Grafana, Node-RED</p><svg viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></svg></div>
+<div class="row"><h3>Other</h3><p>Image processing, Flutter, Firebase RTDB, MS Office</p><svg viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></svg></div>
+</div></div></section>
+
+<section class="dark" id="projects"><div class="wrap">
+<h2>Selected <em>projects</em></h2>
+<div class="proj">
+<div class="p"><div class="cover" style="--g:linear-gradient(135deg,#A8864B,#3a2f1c)"><svg viewBox="0 0 400 250" aria-hidden="true"><path d="M26 112H374M26 130H374" stroke="#fff" stroke-opacity=".75" fill="none" stroke-width="1.5"/><rect x="40" y="44" width="92" height="36" rx="9" fill="rgba(255,255,255,.1)" stroke="#E6C98F" stroke-opacity="1" stroke-width="1.5"/><text x="86.0" y="66.0" text-anchor="middle">Engine ECU</text><rect x="154" y="44" width="92" height="36" rx="9" fill="rgba(255,255,255,.1)" stroke="#fff" stroke-opacity="0.75" stroke-width="1.5"/><text x="200.0" y="66.0" text-anchor="middle">Dashboard</text><rect x="268" y="44" width="92" height="36" rx="9" fill="rgba(255,255,255,.1)" stroke="#fff" stroke-opacity="0.75" stroke-width="1.5"/><text x="314.0" y="66.0" text-anchor="middle">OBD-II</text><path d="M86 80V112" stroke="#fff" stroke-opacity=".75" fill="none" stroke-width="1.5"/><path d="M200 80V112" stroke="#fff" stroke-opacity=".75" fill="none" stroke-width="1.5"/><path d="M314 80V112" stroke="#fff" stroke-opacity=".75" fill="none" stroke-width="1.5"/><rect x="40.0" y="170" width="36" height="32" rx="6" fill="#E6C98F" fill-opacity="0.9" stroke="#fff" stroke-opacity=".6"/><rect x="80.5" y="170" width="36" height="32" rx="6" fill="rgba(255,255,255,.1)" fill-opacity="1" stroke="#fff" stroke-opacity=".6"/><rect x="121.0" y="170" width="36" height="32" rx="6" fill="rgba(255,255,255,.1)" fill-opacity="1" stroke="#fff" stroke-opacity=".6"/><rect x="161.5" y="170" width="36" height="32" rx="6" fill="rgba(255,255,255,.1)" fill-opacity="1" stroke="#fff" stroke-opacity=".6"/><rect x="202.0" y="170" width="36" height="32" rx="6" fill="rgba(255,255,255,.1)" fill-opacity="1" stroke="#fff" stroke-opacity=".6"/><rect x="242.5" y="170" width="36" height="32" rx="6" fill="rgba(255,255,255,.1)" fill-opacity="1" stroke="#fff" stroke-opacity=".6"/><rect x="283.0" y="170" width="36" height="32" rx="6" fill="rgba(255,255,255,.1)" fill-opacity="1" stroke="#fff" stroke-opacity=".6"/><rect x="323.5" y="170" width="36" height="32" rx="6" fill="rgba(255,255,255,.1)" fill-opacity="1" stroke="#fff" stroke-opacity=".6"/><text x="40" y="226">8-byte CAN frame</text></svg></div><small>Personal project</small><h3>Automotive ECU Network and Diagnostic Simulator</h3><p>A C simulator of an ECU network (engine, dashboard) over a CAN bus, with a virtual engine ECU running a 10 Hz control cycle and OBD-II fault codes. Fault injection and pytest tests are in progress. C11, GCC, Git, Python/pytest.</p></div>
+<div class="p"><div class="cover" style="--g:linear-gradient(135deg,#4a6a8f,#16243a)"><svg viewBox="0 0 400 250" aria-hidden="true"><polygon points="70,250 250,250 180,100 140,100" fill="rgba(255,255,255,.12)"/><path d="M160 250V100" stroke="#fff" stroke-opacity=".6" stroke-width="2" stroke-dasharray="10 12" fill="none"/><path d="M300 205V122" stroke="#fff" stroke-opacity=".75" fill="none" stroke-width="1.5"/><circle cx="300" cy="96" r="28" fill="rgba(255,255,255,.12)" stroke="#fff" stroke-width="3"/><text x="300" y="104" text-anchor="middle" style="font-size:22px;font-weight:700">50</text><path d="M258 74V58H274M326 58H342V74M342 118V134H326M274 134H258V118" fill="none" stroke="#E6C98F" stroke-width="2.5" stroke-linecap="round"/><text x="258" y="156" style="fill:#E6C98F">Sign detected</text><text x="30" y="226">Raspberry Pi 4 · camera</text></svg></div><small>Personal project</small><h3>Traffic Sign Detection</h3><p>A Raspberry Pi 4 system that detects and recognizes road signs in real time, from camera capture to classification. Tested in real conditions for lighting, distance and angle.</p></div>
+<div class="p"><div class="cover" style="--g:linear-gradient(135deg,#5f7f77,#15262a)"><svg viewBox="0 0 400 250" aria-hidden="true"><rect x="20" y="98" width="76" height="56" rx="9" fill="rgba(255,255,255,.1)" stroke="#fff" stroke-opacity="0.75" stroke-width="1.5"/><text x="58.0" y="130.0" text-anchor="middle">Sensors</text><rect x="116" y="98" width="76" height="56" rx="9" fill="rgba(255,255,255,.1)" stroke="#fff" stroke-opacity="0.75" stroke-width="1.5"/><text x="154.0" y="130.0" text-anchor="middle">MCU</text><rect x="212" y="98" width="76" height="56" rx="9" fill="rgba(255,255,255,.1)" stroke="#E6C98F" stroke-opacity="1" stroke-width="1.5"/><text x="250.0" y="130.0" text-anchor="middle">Firebase</text><rect x="308" y="98" width="76" height="56" rx="9" fill="rgba(255,255,255,.1)" stroke="#fff" stroke-opacity="0.75" stroke-width="1.5"/><text x="346.0" y="130.0" text-anchor="middle">App</text><path d="M98 126H118M112 120L118 126L112 132" stroke="#fff" stroke-opacity=".75" fill="none" stroke-width="1.5"/><path d="M194 126H214M208 120L214 126L208 132" stroke="#fff" stroke-opacity=".75" fill="none" stroke-width="1.5"/><path d="M290 126H310M304 120L310 126L304 132" stroke="#fff" stroke-opacity=".75" fill="none" stroke-width="1.5"/><text x="20" y="206">Flutter app + web dashboard, live data</text></svg></div><small>Personal project</small><h3>Smart Soap Dispenser</h3><p>Sensors and actuators connected through a microcontroller to Firebase, with live supervision of distribution data and equipment status in a Flutter app and a website.</p></div>
+<div class="p"><div class="cover" style="--g:linear-gradient(135deg,#7d8794,#1d2736)"><svg viewBox="0 0 400 250" aria-hidden="true"><rect x="140" y="60" width="120" height="120" rx="10" fill="rgba(255,255,255,.08)" stroke="#fff" stroke-opacity=".8" stroke-width="1.5"/><path d="M158 60V42M158 180V198M140 78H122M260 78H278" stroke="#fff" stroke-opacity=".75" fill="none" stroke-width="1.5"/><path d="M179 60V42M179 180V198M140 99H122M260 99H278" stroke="#fff" stroke-opacity=".75" fill="none" stroke-width="1.5"/><path d="M200 60V42M200 180V198M140 120H122M260 120H278" stroke="#fff" stroke-opacity=".75" fill="none" stroke-width="1.5"/><path d="M221 60V42M221 180V198M140 141H122M260 141H278" stroke="#fff" stroke-opacity=".75" fill="none" stroke-width="1.5"/><path d="M242 60V42M242 180V198M140 162H122M260 162H278" stroke="#fff" stroke-opacity=".75" fill="none" stroke-width="1.5"/><rect x="160" y="80" width="24" height="24" rx="4" fill="rgba(255,255,255,.14)" stroke="#fff" stroke-opacity=".5"/><rect x="160" y="112" width="24" height="24" rx="4" fill="rgba(255,255,255,.14)" stroke="#fff" stroke-opacity=".5"/><rect x="160" y="144" width="24" height="24" rx="4" fill="rgba(255,255,255,.14)" stroke="#fff" stroke-opacity=".5"/><rect x="192" y="80" width="24" height="24" rx="4" fill="rgba(255,255,255,.14)" stroke="#fff" stroke-opacity=".5"/><rect x="192" y="112" width="24" height="24" rx="4" fill="#E6C98F" stroke="#fff" stroke-opacity=".5"/><rect x="192" y="144" width="24" height="24" rx="4" fill="rgba(255,255,255,.14)" stroke="#fff" stroke-opacity=".5"/><rect x="224" y="80" width="24" height="24" rx="4" fill="rgba(255,255,255,.14)" stroke="#fff" stroke-opacity=".5"/><rect x="224" y="112" width="24" height="24" rx="4" fill="rgba(255,255,255,.14)" stroke="#fff" stroke-opacity=".5"/><rect x="224" y="144" width="24" height="24" rx="4" fill="rgba(255,255,255,.14)" stroke="#fff" stroke-opacity=".5"/><text x="200" y="228" text-anchor="middle">VHDL · Verilog · RISC core</text></svg></div><small>Academic project</small><h3>FPGA Simulation and Programming</h3><p>Digital circuits simulated and programmed on an FPGA board, including the design and simulation of a simplified RISC microprocessor in VHDL and Verilog.</p></div>
+</div></div></section>
+
+<section id="background"><div class="wrap">
+<div class="cols">
+<div><h2>Education</h2><div class="tl">
+<div><time>2025 – 2027</time><p><b>Master’s in Embedded Electronics</b><span>Ibn Tofail University, Faculty of Sciences, Kénitra (ongoing)</span></p></div>
+<div><time>2024 – 2025</time><p><b>Bachelor’s in Electrical Engineering</b><span>Instrumentation and Supervision of Smart Systems, EST Kénitra</span></p></div>
+<div><time>2022 – 2024</time><p><b>Diploma in Electromechanics of Automated Systems</b><span>ISTA, Khouribga</span></p></div>
+</div></div>
+<div><h2>Experience</h2><div class="tl">
+<div><time>2024, 1 month</time><p><b>Electrical Maintenance Intern, OCP</b><span>Diagnosis and repair of electric motors, plus low- and high-voltage tests (insulation, dielectric strength, load) with failure analysis.</span></p></div>
+<div><time>Languages</time><p><b>Arabic, French, English</b><span>Arabic (native), French (fluent, B1), English (fluent, B2)</span></p></div>
+<div><time>Interests</time><p><b>Strategy games and volleyball</b><span>&nbsp;</span></p></div>
+</div></div>
+</div></div></section>
+
+<section class="dark contact" id="contact"><div class="wrap">
+<div><h2>Let’s work together</h2><p>Have a project, a question or an idea in embedded systems? Send me a message.</p>
+<div class="ci"><a href="https://github.com/aymenakdim" target="_blank" rel="noopener">github.com/aymenakdim</a><a href="https://www.linkedin.com/in/aymen-akdim-060782341/" target="_blank" rel="noopener">LinkedIn: Aymen Akdim</a><a href="mailto:aymen.akdim@uit.ac.ma">aymen.akdim@uit.ac.ma</a><a href="tel:+212698511213">+212 6 98 51 12 13</a><span style="color:#A9B3C2">Ouled Oujih, Kénitra, Morocco</span></div></div>
+<form id="form">
+<label>Your name<input name="n" required autocomplete="name"></label>
+<label>Email<input type="email" name="e" required autocomplete="email"></label>
+<label>Message<textarea name="m" required></textarea></label>
+<button class="btn" type="submit">Send message</button><p id="note" role="status"></p>
+</form></div></section>
+</main>
+<footer><div class="wrap"><span>© 2026 Aymen Akdim</span><a href="#home">Back to top</a></div></footer>
+<script src="script.js"></script>
+</body></html>
